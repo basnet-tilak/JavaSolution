@@ -11,7 +11,7 @@ public class LexicographicalOrder {
         List<String> subStringList = new ArrayList<>();
         int i = 0;
         for(char c : a.toCharArray()){
-            
+            subStringList.add(String.valueOf(c));
         }
         return subStringList;
     }

@@ -7,8 +7,9 @@ public class PersonExecute {
     public static void main(String[] args) {
         List<Person> personList = personList();
         personList.stream()
-                .filter(person -> person.getAddress().startsWith("S"))
-                .forEach(person -> System.out.println(person.getFirstName()));
+                .anyMatch(person -> person.getFirstName().equals("Tilak"));
+                //.forEach(person -> System.out.println(person.getFirstName()));
+                //.forEach(person -> System.out.println(person.getAddress()));
     }
 
     private static List<Person> personList(){
