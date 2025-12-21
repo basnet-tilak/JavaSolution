@@ -1,7 +1,6 @@
 package solution.datastructure.collection.list_;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ArrayList_ {

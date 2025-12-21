@@ -33,7 +33,7 @@ public class NavigableHashSet {
         // Iterating in descending order
         NavigableSet<Integer> descendingNumbers = numbers.descendingSet();
         for (Integer num : descendingNumbers) {
-            System.out.println(num);
+            System.out.println("Number: "+num);
         }
     }
 }
