@@ -15,7 +15,7 @@ class CountWordsCommand extends Command {
 }
 
 public class Program {
-    private HashMap<String, Command> commands;
+    private final HashMap<String, Command> commands;
 
     public Program() {
         this.commands = new HashMap<>();
